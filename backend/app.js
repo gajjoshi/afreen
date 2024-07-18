@@ -15,6 +15,8 @@ const corsOptions = {
     "http://localhost:3001",
     "http://localhost:3003",
     "http://localhost:3000",
+    "https://afreen-psi.vercel.app",
+    "https://afreen-admin.vercel.app",
   ], // Replace with your frontend's origin
   credentials: true,
 };

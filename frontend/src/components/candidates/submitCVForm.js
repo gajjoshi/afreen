@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import BACKEND_URL from "@/utils/constants";
 
 const SubmitCVForm = () => {
   const initialFormData = JSON.parse(localStorage.getItem("formData")) || {
@@ -42,9 +43,7 @@ const SubmitCVForm = () => {
 
   const fetchJobDetails = async (jobId) => {
     try {
-      const response = await axios.get(
-        `http://localhost:3002/api/jobs/${jobId}`
-      );
+      const response = await axios.get(`${BACKEND_URL}/api/jobs/${jobId}`);
       setJobDetails(response.data); // Assuming response.data contains job details
     } catch (error) {
       console.error("Error fetching job details:", error);
@@ -102,7 +101,7 @@ const SubmitCVForm = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:3002/api/candidates/submitForm",
+        `${BACKEND_URL}/api/candidates/submitForm`,
         formDataToSend,
         {
           headers: {
@@ -117,7 +116,7 @@ const SubmitCVForm = () => {
         if (selectedJobId) {
           const candidateId = response.data.data._id; // Assuming response contains candidate ID
           await axios.post(
-            `http://localhost:3002/api/jobs/${selectedJobId}/addCandidate`,
+            `${BACKEND_URL}/api/jobs/${selectedJobId}/addCandidate`,
             { candidateId },
             {
               headers: {

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import BACKEND_URL from "@/utils/constants";
 
 const HomePage = () => {
   const [formData, setFormData] = useState({
@@ -18,7 +19,7 @@ const HomePage = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:3002/api/support/submitSupportForm",
+        `${BACKEND_URL}/api/support/submitSupportForm`,
         formData
       );
       console.log(response.data.message);

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useRouter } from "next/router";
+import BACKEND_URL from "@/utils/constants";
 
 const JobDetails = () => {
   const [job, setJob] = useState(null);
@@ -17,12 +18,9 @@ const JobDetails = () => {
 
   const fetchJobDetails = async (jobId) => {
     try {
-      const response = await axios.get(
-        `http://localhost:3002/api/jobs/${jobId}`,
-        {
-          withCredentials: true,
-        }
-      );
+      const response = await axios.get(`${BACKEND_URL}/api/jobs/${jobId}`, {
+        withCredentials: true,
+      });
       setJob(response.data);
     } catch (error) {
       console.error("Error fetching job details:", error);
@@ -32,7 +30,7 @@ const JobDetails = () => {
   const fetchCandidates = async (jobId) => {
     try {
       const response = await axios.get(
-        `http://localhost:3002/api/jobs/${jobId}/fetchcandidates`,
+        `${BACKEND_URL}/api/jobs/${jobId}/fetchcandidates`,
         {
           withCredentials: true,
         }

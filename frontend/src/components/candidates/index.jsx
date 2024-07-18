@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import SubmitCVForm from "./submitCVForm";
 import axios from "axios";
+import BACKEND_URL from "@/utils/constants";
 
 const JobListing = ({
   jobTitle,
@@ -54,7 +55,7 @@ const Candidate = () => {
   useEffect(() => {
     // Fetch job listings from backend API
     axios
-      .get("http://localhost:3002/api/jobs")
+      .get(`${BACKEND_URL}/api/jobs`)
       .then((response) => {
         setJobs(response.data); // Assuming response.data is an array of job objects
       })

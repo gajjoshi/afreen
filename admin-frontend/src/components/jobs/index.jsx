@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useRouter } from "next/router";
+import BACKEND_URL from "@/utils/constants";
 
 const JobsIndex = () => {
   const [jobs, setJobs] = useState([]);
@@ -22,7 +23,7 @@ const JobsIndex = () => {
 
   const fetchJobs = async () => {
     try {
-      const response = await axios.get("http://localhost:3002/api/jobs", {
+      const response = await axios.get(`${BACKEND_URL}/api/jobs`, {
         withCredentials: true,
       });
       setJobs(response.data);
@@ -49,7 +50,7 @@ const JobsIndex = () => {
 
   const handleDelete = async (jobId) => {
     try {
-      await axios.delete(`http://localhost:3002/api/jobs/${jobId}`, {
+      await axios.delete(`${BACKEND_URL}/api/jobs/${jobId}`, {
         withCredentials: true,
       });
       const updatedJobs = jobs.filter((job) => job._id !== jobId);
@@ -90,16 +91,12 @@ const JobsIndex = () => {
     try {
       if (jobToUpdate) {
         // Update existing job
-        await axios.put(
-          `http://localhost:3002/api/jobs/${jobToUpdate._id}`,
-          newJob,
-          {
-            withCredentials: true,
-          }
-        );
+        await axios.put(`${BACKEND_URL}/api/jobs/${jobToUpdate._id}`, newJob, {
+          withCredentials: true,
+        });
       } else {
         // Create new job
-        await axios.post("http://localhost:3002/api/jobs", newJob, {
+        await axios.post(`${BACKEND_URL}/api/jobs`, newJob, {
           withCredentials: true,
         });
       }
