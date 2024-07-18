@@ -10,7 +10,7 @@ export default function Login() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (email === "admin@example.com" && password === "test123") {
+    if (email === "admin@example.com" && password === "test1234") {
       // Redirect to jobs listing page on successful login
       Router.push("/options");
     } else {
