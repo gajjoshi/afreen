@@ -7,7 +7,7 @@ const Strategy = () => {
   return (
     <main>
       <Header />
-      <div className="strategy-container-strategy mt-16">
+      <div className="strategy-container-strategy pt-5 px-5 mt-16">
         <h1 className="strategy-h1">
           Our strategy to address customer concerns
         </h1>

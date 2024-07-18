@@ -18,7 +18,7 @@ const AboutUs3 = () => {
   return (
     <main className=" flex justify-center items-center">
       <Header />
-      <div className="art-science-about-us3-container w-full mt-16">
+      <div className="art-science-about-us3-container pt-5 px-5 w-full mt-16">
         <h1 className="art-science-heading">
           The art & science of shortlisting candidates
         </h1>

@@ -5,7 +5,7 @@ const AboutUs4 = () => {
   return (
     <main className=" flex justify-center items-center">
       <Header />
-      <div className="company-registration-container mt-16">
+      <div className="company-registration-container pt-5 px-5 mt-16">
         <h1>Company Registration Information</h1>
         <table className="company-registration-table">
           <tbody>

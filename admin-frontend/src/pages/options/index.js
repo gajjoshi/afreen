@@ -25,7 +25,7 @@ export default function Options() {
         </div>
 
         {/* User Details Card */}
-        <div className="bg-white shadow-md rounded-lg p-4">
+        {/* <div className="bg-white shadow-md rounded-lg p-4">
           <h2 className="text-lg font-bold mb-2">User Details</h2>
           <p className="text-gray-600 mb-4">View and manage user details.</p>
           <div className="flex gap-2">
@@ -38,7 +38,7 @@ export default function Options() {
               Manage Details
             </button>
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* Logout Button */}

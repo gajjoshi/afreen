@@ -213,11 +213,11 @@ body {
 /* StrategyStyles.css */
 
 .strategy-container-strategy {
-  padding: 40px;
+  /* padding: 40px; */
   background-color: #fff;
   color: #333;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1440px;
 }
 
 .strategy-h1 {
@@ -390,7 +390,7 @@ body {
 }
 .art-science-about-us3-container {
   font-family: "Arial", sans-serif;
-  padding: 40px;
+  /* padding: 40px; */
   background-color: #fff;
   color: #333;
   max-width: 1440px;
@@ -463,7 +463,7 @@ body {
 }
 .industries-served-container {
   font-family: "Arial", sans-serif;
-  padding: 40px;
+
   background-color: #fff;
   color: #333;
   max-width: 1440px;
@@ -546,7 +546,7 @@ body {
 }
 .company-registration-container {
   font-family: "Arial", sans-serif;
-  padding: 40px;
+
   background-color: #fff;
   color: #333;
   max-width: 1440px;
@@ -901,5 +901,452 @@ body {
 
   .emigrate-portal-accordion-content p {
     font-size: 12px;
+  }
+}
+
+.job-description-employe2-container {
+  max-width: 1440px;
+  padding: 20px;
+}
+
+.job-description-employe2-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-description-employe2-header h1 {
+  font-size: 32px;
+  color: #333;
+}
+
+.job-description-employe2-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.job-description-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.job-description-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.job-description-card-content {
+  font-size: 16px;
+  width: 380px;
+  margin-left: 40px;
+  text-align: left;
+}
+
+.job-description-card.left1 {
+  align-self: flex-start;
+  color: white;
+  background-color: rgba(38, 70, 83, 1);
+  z-index: 999;
+  position: relative;
+}
+
+.job-description-card.left2 {
+  align-self: flex-start;
+  color: white;
+  background-color: rgba(38, 70, 83, 1);
+  margin-top: -50;
+}
+
+.job-description-card.right1 {
+  background-color: rgba(203, 191, 139, 1);
+  position: relative;
+  z-index: 9;
+  width: fit-content;
+  margin-left: 400px;
+  margin-top: -50px;
+}
+
+.job-description-images {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* width: 100%; */
+}
+
+.job-description-images img {
+  /* width: 200px;
+  height: auto;
+  border-radius: 8px; */
+}
+
+.job-description-images1 {
+  width: 100%;
+}
+
+.job-description-images2 {
+  display: flex;
+  gap: 10px;
+}
+
+.job-description-employe2-footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .job-description-employe2-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .job-description-card-content {
+    width: 100%;
+    /* gap: 10px; */
+    margin: 0;
+  }
+
+  .job-description-employe2-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .job-description-images {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .job-description-images img {
+    width: 150px;
+    margin-bottom: 10px;
+  }
+
+  .job-description-card.left,
+  .job-description-card.right {
+    align-self: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .job-description-employe2-header h1 {
+    font-size: 20px;
+  }
+
+  .job-description-card {
+    padding: 15px;
+  }
+
+  .job-description-card-content {
+    font-size: 14px;
+  }
+
+  .job-description-images img {
+    width: 100px;
+  }
+}
+.onboarding-employe1-container {
+  padding: 20px;
+  max-width: 1440px;
+}
+
+.onboarding-h2 {
+  text-align: left;
+  margin-bottom: 20px;
+  color: rgba(38, 70, 83, 1);
+}
+
+.onboarding-first-para-container {
+  background-color: rgba(38, 70, 83, 1);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.onboarding-p {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.onboarding-content-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.onboarding-text-content {
+  flex: 1;
+  min-width: 300px;
+  margin-right: 20px;
+}
+
+.onboarding-list-item {
+  display: flex;
+  align-items: flex-start;
+  margin: 10px 0;
+}
+
+.onboarding-icon {
+  color: rgb(123, 169, 234);
+  margin-right: 5px;
+  margin-top: 5px;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+
+.onboarding-list-item div,
+.onboarding-list-item p {
+  flex: 1;
+}
+
+.onboarding-ul {
+  margin-top: 10px;
+  margin-left: 20px;
+  padding-left: 20px;
+  list-style-type: disc;
+  color: rgb(20, 18, 18);
+}
+
+.onboarding-image-container {
+  max-width: 300px;
+  flex: 0 0 300px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.onboarding-image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .onboarding-employe1-container {
+    padding: 10px;
+  }
+
+  .onboarding-content-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .onboarding-text-content {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .onboarding-image-container {
+    max-width: 100%;
+    margin-top: 0%;
+  }
+
+  .onboarding-p {
+    font-size: 14px;
+  }
+
+  .onboarding-list-item {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .onboarding-icon {
+    margin-right: 10px;
+    margin-top: 0;
+  }
+
+  .onboarding-ul {
+    margin-left: 20px;
+    padding-left: 20px;
+    list-style-type: disc;
+  }
+}
+.team-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.team-ceo-section {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.team-ceo-photo {
+  flex: 1;
+  min-width: 200px;
+  height: 300px;
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 20px;
+  border-radius: 25px;
+}
+
+.team-ceo-message {
+  flex: 2;
+  background-color: #264653;
+  color: white;
+  padding: 20px;
+  border-radius: 25px;
+  max-width: 800px;
+}
+
+.team-ceo-message h1 {
+  font-size: 24px;
+  color: #f8f8f8;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.team-ceo-message h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.team-ceo-message p {
+  margin: 5px 0;
+}
+
+.team-ceo-message button {
+  background-color: #21a08b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.team-container-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1440px;
+  justify-content: center;
+  gap: 10px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.team-background-wrapper {
+  background-color: rgba(33, 160, 139, 0.3);
+  padding: 20px;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.team-member {
+  text-align: center;
+  padding: 20px;
+  border-radius: 25px;
+  margin: 10px;
+  flex: 0 0 22%;
+  max-width: 22%;
+  box-sizing: border-box;
+}
+
+.team-member-photo {
+  background-color: #d9d9d9;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  height: 150px;
+  width: 130px;
+  margin-bottom: -10px;
+  z-index: 9999;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team-but-con {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.team-member-brief {
+  background-color: rgb(135, 175, 188);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 15px;
+  height: 160px;
+  width: 170px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  position: relative;
+  top: -10px;
+  z-index: 1;
+}
+
+.team-dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  transition: 0.3s;
+}
+
+.team-dot.active {
+  background-color: #21a08b;
+}
+
+.team-dots-wrapper {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .team-ceo-section {
+    flex-direction: column;
+  }
+
+  .team-ceo-photo {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .team-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team-member {
+    flex: 1 1 100%;
+    margin: 10px 0;
+    max-width: 100%;
+  }
+
+  .team-member-photo {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
