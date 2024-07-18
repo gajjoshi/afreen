@@ -66,7 +66,7 @@ const Header = () => {
     <header
       className={`fixed top-0 bg-transparent left-0 w-full ${
         isHomePage && !isScrolled ? "bg-transparent" : "bg-white shadow-lg"
-      } px-4 py-3 z-50 transition-all duration-300 ${
+      } px-4 py-3 z-[1000] transition-all duration-300 ${
         isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
       }`}
     >

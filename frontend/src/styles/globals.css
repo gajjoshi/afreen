@@ -1202,7 +1202,7 @@ body {
   color: white;
   padding: 20px;
   border-radius: 25px;
-  max-width: 800px;
+  /* max-width: 800px; */
 }
 
 .team-ceo-message h1 {
@@ -1218,7 +1218,7 @@ body {
 }
 
 .team-ceo-message p {
-  margin: 5px 0;
+  margin: 10px 0;
 }
 
 .team-ceo-message button {
@@ -1273,7 +1273,7 @@ body {
   height: 150px;
   width: 130px;
   margin-bottom: -10px;
-  z-index: 9999;
+  z-index: 20;
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -1325,6 +1325,10 @@ body {
 
 /* Responsive styles */
 @media (max-width: 768px) {
+  .team-ceo-photo {
+    flex: none;
+    width: 100%;
+  }
   .team-ceo-section {
     flex-direction: column;
   }
