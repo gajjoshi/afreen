@@ -2,18 +2,18 @@ import React from "react";
 import { FirstSection } from "./firstSection";
 import { SecondSection } from "./secondSection";
 import { FourthSection } from "./fourthSection";
-import { FifthSection } from "./fifthSection";
-import { SixthSection } from "./sixthSection";
+
 import { SeventhSection } from "./seventhSection";
+import { ThirdSection } from "./thirdSection";
 
 export function Homepage() {
   return (
-    <div className="">
+    <div>
       <FirstSection />
       <SecondSection />
+      <ThirdSection />
       <FourthSection />
-      <FifthSection />
-      <SixthSection />
+
       <SeventhSection />
     </div>
   );

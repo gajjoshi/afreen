@@ -7,7 +7,7 @@ import { Homepage } from "@/components/homepage";
 export default function Home() {
   return (
     <main
-      className={`flex min-h-screen flex-col items-center justify-between  ${inter.className}`}
+      className={`flex min-h-screen overflow-x-hidden flex-col items-center justify-between  ${inter.className}`}
     >
       <Header />
       <Homepage />

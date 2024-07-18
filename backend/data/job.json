@@ -1,0 +1,66 @@
+[
+  {
+    "jobTitle": "Software Engineer",
+    "industry": "Information Technology",
+    "experience": "3-5 years",
+    "location": "Remote",
+    "education": "Bachelor's degree in Computer Science or related field",
+    "description": "Develop and maintain high-quality software solutions for various platforms and applications."
+  },
+  {
+    "jobTitle": "Data Analyst",
+    "industry": "Finance",
+    "experience": "2-4 years",
+    "location": "New York, NY",
+    "education": "Bachelor's degree in Statistics, Mathematics, or related field",
+    "description": "Analyze complex data sets to provide valuable insights and recommendations."
+  },
+  {
+    "jobTitle": "Marketing Manager",
+    "industry": "Marketing",
+    "experience": "5-7 years",
+    "location": "San Francisco, CA",
+    "education": "Bachelor's degree in Marketing or Business Administration",
+    "description": "Develop and implement strategic marketing plans to achieve company objectives."
+  },
+  {
+    "jobTitle": "UX/UI Designer",
+    "industry": "Design",
+    "experience": "3-5 years",
+    "location": "Remote",
+    "education": "Bachelor's degree in Design or related field",
+    "description": "Create intuitive and engaging user interfaces and experiences for web and mobile applications."
+  },
+  {
+    "jobTitle": "Financial Analyst",
+    "industry": "Finance",
+    "experience": "4-6 years",
+    "location": "Chicago, IL",
+    "education": "Bachelor's degree in Finance, Economics, or related field",
+    "description": "Conduct financial analysis, forecasting, and reporting to support strategic decision-making."
+  },
+  {
+    "jobTitle": "Product Manager",
+    "industry": "Technology",
+    "experience": "5-8 years",
+    "location": "Seattle, WA",
+    "education": "Bachelor's degree in Computer Science, Engineering, or Business Administration",
+    "description": "Lead product development initiatives from ideation to launch, collaborating with cross-functional teams."
+  },
+  {
+    "jobTitle": "HR Manager",
+    "industry": "Human Resources",
+    "experience": "6-8 years",
+    "location": "Dallas, TX",
+    "education": "Bachelor's degree in Human Resources, Business Administration, or related field",
+    "description": "Oversee recruitment, employee relations, and HR policies to support organizational goals and culture."
+  },
+  {
+    "jobTitle": "Sales Executive",
+    "industry": "Sales",
+    "experience": "3-5 years",
+    "location": "Miami, FL",
+    "education": "Bachelor's degree in Business, Marketing, or related field",
+    "description": "Drive sales growth through prospecting, client relationship management, and strategic sales initiatives."
+  }
+]
