@@ -77,7 +77,7 @@ app.post(
 
       const mailOptions = {
         from: process.env.AUTH_EMAIL,
-        to: "bhuvanjain212003@gmail.com", // Replace with your recipient email
+        to: "Add your email", // Replace with your recipient email
         subject: "New CV Submission",
         html: `
           <h3>Candidate Details:</h3>
