@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { IoMenu, IoClose } from "react-icons/io5";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import Image from "next/image";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -64,7 +65,7 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed top-0 bg-transparent left-0 w-full ${
+      className={`fixed top-0 md:bg-transparent max-md:bg-white left-0 w-full ${
         isHomePage && !isScrolled ? "bg-transparent" : "bg-white shadow-lg"
       } px-4 py-3 z-[1000] transition-all duration-300 ${
         isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
@@ -72,9 +73,15 @@ const Header = () => {
     >
       <div className="flex items-center justify-between">
         <div className="flex items-center">
-          <Link href="/">
-            <img className="h-10" src="/header/logo.svg" alt="Your Logo" />
-          </Link>
+          {/* <Link href="/"> */}
+          <img
+            width={200}
+            height={10}
+            className=" max-md:max-h-[90px] max-md:max-w-[150px] max-h-[100px]"
+            src="/logofinal.svg"
+            alt="Your Logo"
+          />
+          {/* </Link> */}
         </div>
 
         <div className="lg:hidden">

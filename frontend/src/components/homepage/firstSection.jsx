@@ -4,9 +4,9 @@ export function FirstSection() {
   // Capitalized for consistency
 
   return (
-    <section className="  w-full relaive bg-cover bg-[#264653] bg-no-repeat">
+    <section className=" max-md:mt-[115px]  w-full relaive bg-cover bg-[#264653] bg-no-repeat">
       <div>
-        <div className=" max-md:h-screen opacity-80 bg-[#264653] ">
+        <div className=" max-md:h-screen opacity-30 bg-[#264653] ">
           <Image
             src="/homepage/landing.svg"
             alt="Homepage background"
