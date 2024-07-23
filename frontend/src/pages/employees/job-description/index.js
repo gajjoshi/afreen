@@ -22,7 +22,7 @@ const Employe2 = () => {
           <div className=" flex flex-col  max-md:gap-5   max-md:w-full md:w-7/12">
             <div className="  w-full ">
               <div className=" bg-[#264653] max-md:text-[14px] max-md:p-3 p-5 rounded-[30px] job-description-card-content">
-                <p className=" max-md:text-[12px]">
+                <p className=" max-md:text-[16px]">
                   Training inexperienced but qualified graduates is a very
                   successful business model for many employers. Resources spent
                   on their training pays off handsomely in the short as well as
@@ -35,7 +35,7 @@ const Employe2 = () => {
             </div>
             <div className="w-full flex justify-end">
               <div className=" bg-[#CBBF8B] p-5 max-md:p-3  rounded-[30px] text-[#264653]  job-description-card-content">
-                <p className=" max-md:text-[12px]">
+                <p className=" max-md:text-[16px]">
                   To maintain a low turnover ratio, taking on board graduates
                   from the college campuses is a strategy employed successfully
                   by many Corporates. With our connections with many
@@ -49,7 +49,7 @@ const Employe2 = () => {
             </div>
             <div className=" w-full left2">
               <div className=" bg-[#264653] p-5 max-md:p-3  rounded-[30px] job-description-card-content">
-                <p className=" max-md:text-[12px]">
+                <p className=" max-md:text-[16px]">
                   Inexperienced graduates do not carry the baggage of existing
                   management ideas developed over the years by a Company. They
                   can be molded to perfectly suit the needs of a company which

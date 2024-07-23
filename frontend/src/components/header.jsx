@@ -219,7 +219,7 @@ const Header = () => {
               <IoClose size={30} className="text-white" />
             </button>
           </div>
-          <nav className="flex flex-col items-start no-underline border-0 px-10 space-y-4 overflow-y-auto h-full  divide-gray-700">
+          <nav className="flex flex-col items-start no-underline border-0 px-10 space-y-4 overflow-y-auto h-full divide-gray-700">
             <Link href="/" className="">
               <span
                 className={`hover:text-gray-300 text-white py-2 w-full text-center  border-gray-700`}
@@ -238,35 +238,35 @@ const Header = () => {
                 {dropdown === "aboutUs" ? <IoClose /> : <IoMenu />}
               </span>
               {dropdown === "aboutUs" && (
-                <div className="bg-white shadow-lg text-gray-700 rounded-lg">
+                <div className="bg-blue-300 shadow-lg text-white rounded-lg">
+                  <Link href="/about-us/vision-mission">
+                    <span className="block px-4 py-2 hover:bg-blue-200">
+                      Vision & Mission
+                    </span>
+                  </Link>
                   <Link href="/about-us/strategy">
-                    <span className="block px-4 py-2 hover:bg-green-200">
+                    <span className="block px-4 py-2 hover:bg-blue-200">
                       Strategy
                     </span>
                   </Link>
                   <Link href="/about-us/professions-supplied">
-                    <span className="block px-4 py-2 hover:bg-green-200">
+                    <span className="block px-4 py-2 hover:bg-blue-200">
                       Professions Supplied
                     </span>
                   </Link>
                   <Link href="/about-us/art-science">
-                    <span className="block px-4 py-2 hover:bg-green-200">
+                    <span className="block px-4 py-2 hover:bg-blue-200">
                       Art & Science of Recruitment
                     </span>
                   </Link>
                   <Link href="/about-us/industries-served">
-                    <span className="block px-4 py-2 hover:bg-green-200">
+                    <span className="block px-4 py-2 hover:bg-blue-200">
                       Industries Served
                     </span>
                   </Link>
                   <Link href="/about-us/company-registration">
-                    <span className="block px-4 py-2 hover:bg-green-200">
+                    <span className="block px-4 py-2 hover:bg-blue-200">
                       Company Registration
-                    </span>
-                  </Link>
-                  <Link href="/about-us/vision-mission">
-                    <span className="block px-4 py-2 hover:bg-green-200">
-                      Vision & Mission
                     </span>
                   </Link>
                 </div>
@@ -299,14 +299,14 @@ const Header = () => {
                 {dropdown === "employees" ? <IoClose /> : <IoMenu />}
               </span>
               {dropdown === "employees" && (
-                <div className="bg-white shadow-lg text-gray-700 rounded-lg">
+                <div className="bg-blue-300 shadow-lg text-white rounded-lg">
                   <Link href="/employees/onboarding">
-                    <span className="block px-4 py-2 hover:bg-green-200">
+                    <span className="block px-4 py-2 hover:bg-blue-200">
                       Onboarding Fresh Graduates
                     </span>
                   </Link>
                   <Link href="/employees/job-description">
-                    <span className="block px-4 py-2 hover:bg-green-200">
+                    <span className="block px-4 py-2 hover:bg-blue-200">
                       Importance of Job Description
                     </span>
                   </Link>

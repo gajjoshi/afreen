@@ -34,7 +34,7 @@ export function SeventhSection() {
     <div className="flex flex-col lg:flex-row bg-[#264653] justify-evenly pt-10 pb-20 w-full px-5 lg:px-10">
       <div className="flex gap-5 flex-col h-full justify-evenly w-full lg:w-1/4 items-start">
         <div className="text-lg lg:text-xl font-bold text-white">ADDRESS</div>
-        <div className="text-sm lg:text-base text-white">
+        <div className="text-sm it lg:text-base text-white">
           Office No. 624, 625, 6th Floor, Mega Mall, Mall Road, Kanpur-208001,
           Uttar Pradesh, India
         </div>
@@ -48,7 +48,7 @@ export function SeventhSection() {
         <div className="gap-3 items-center flex text-white">
           <FaRegClock size={32} />
           <div className="flex flex-col">
-            <div>Mon. - Sat.:</div>
+            <div>Mon - Sat:</div>
             <div>08.00 AM - 08.00 PM</div>
           </div>
         </div>
@@ -61,7 +61,7 @@ export function SeventhSection() {
           <div className="text-lg lg:text-xl font-bold text-white">
             QUICK LINKS
           </div>
-          <div className="flex flex-col lg:flex-row gap-5">
+          <div className="flex  flex-col lg:flex-row gap-5">
             <div className="flex flex-col gap-5">
               <div className="flex items-center gap-4 text-white">
                 <div className="bg-[#CBBF8B] h-2 w-2 rounded-full"></div>
@@ -77,7 +77,7 @@ export function SeventhSection() {
               </div>
               <div className="flex items-center gap-4 text-white">
                 <div className="bg-[#CBBF8B] h-2 w-2 rounded-full"></div>
-                <div className="text-base">Teams</div>
+                <div className="text-base">Employers</div>
               </div>
             </div>
             <div className="flex flex-col gap-5">
@@ -101,7 +101,7 @@ export function SeventhSection() {
           </div>
         </div>
 
-        <div className="bg-[#21A08B] bg-opacity-50 p-5 rounded-lg w-full lg:w-[486px]">
+        <div className="bg-[#21A08B] max-w-[335px] bg-opacity-50 p-5 rounded-lg w-full lg:w-[486px]">
           <div className="mb-4 text-lg font-bold text-white">Contact Us</div>
           {error && <div className="mb-4 text-red-500">{error}</div>}
           <form onSubmit={handleSubmit}>

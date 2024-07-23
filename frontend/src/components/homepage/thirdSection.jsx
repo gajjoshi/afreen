@@ -31,7 +31,7 @@ export function ThirdSection() {
             OUR VISION
           </div>
           <div
-            className="text-lg md:text-xl max-md:text-start
+            className="text-2xl max-md:text-base md:text-xl max-md:text-start
            text-gray-800 text-center md:text-left"
           >
             To be the first choice of industries for their recruitment needs,
@@ -72,7 +72,7 @@ export function ThirdSection() {
       <div className=" max-md:py-10 py-20 w-full px-5 text-white">
         <div
           className="text-lg md:text-3xl max-md:p-10 
-        rounded-[30px] bg-[#264653] font-light md:min-h-[200px]
+        rounded-[30px] bg-[#264653] font-semibold  md:min-h-[200px]
          text-center max-w-[1170px] mx-auto px-6 md:p-10"
         >
           Our commitment to quality and compliance sets us apart. We

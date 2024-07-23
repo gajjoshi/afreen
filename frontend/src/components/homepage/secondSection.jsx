@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export function SecondSection() {
   return (
-    <div className="pr-[40px] pl-[40px] max-md:pl-[20px] bg-white max-md:pt-10 pt-20">
+    <div className="pr-[20px] pl-[20px] max-md:pl-[20px] bg-white max-md:pt-10 pt-20">
       <div className="flex max-md:flex-col items-center relative max-md:gap-[20px] md:gap-[100px]">
         <div className=" z-10 relative gap-[20px] md:pt-32 flex flex-col">
           <div className="items-end max-md:hidden  gap-[20px] flex">
@@ -39,7 +39,7 @@ export function SecondSection() {
             <h2 className="text-3xl max-md:text-2xl uppercase font-bold mb-4">
               About Us
             </h2>
-            <p className="text-2xl tracking-wide  font-light max-md:text-base max-md:mb-5 md:mb-12">
+            <p className="text-2xl   max-md:text-base max-md:mb-5 md:mb-12">
               Welcome to Afreen International Tours & Travels. Your trusted
               partner in connecting skilled manpower from South Asia to esteemed
               companies across the Middle East. With a rich legacy of 38 years
