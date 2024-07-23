@@ -6,7 +6,7 @@ export default function page() {
   return (
     <main>
       <Header />
-      <div className=" mt-16  flex justify-center items-center bg-white">
+      <div className=" mt-32  flex justify-center items-center bg-white">
         <OurServices />
       </div>
     </main>

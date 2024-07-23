@@ -45,7 +45,7 @@ const Team = () => {
   };
 
   return (
-    <div className="team-container mt-16 w-full">
+    <div className="team-container mt-32 w-full">
       <div className="team-ceo-section">
         <div className="team-ceo-photo h-fll h-[300px]">CEO's PHOTO</div>
         <div className="team-ceo-message h-full">

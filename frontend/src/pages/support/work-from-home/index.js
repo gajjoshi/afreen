@@ -7,7 +7,7 @@ const Support3 = () => {
   return (
     <main className=" flex justify-center">
       <Header />
-      <div className="work-from-home-container mt-16">
+      <div className="work-from-home-container mt-32">
         <div className="work-from-home-image-content md:hidden">
           <Image
             src="/image22.svg"

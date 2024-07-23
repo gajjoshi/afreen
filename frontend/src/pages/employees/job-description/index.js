@@ -6,7 +6,7 @@ const Employe2 = () => {
   return (
     <main className=" w-full items-center">
       <Header />
-      <div className=" w-full mt-16 job-description-employe2-container">
+      <div className=" w-full mt-32 job-description-employe2-container">
         <div className="job-description-employe2-header">
           <h1>Taking onboard fresh graduates</h1>
         </div>

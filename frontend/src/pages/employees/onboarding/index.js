@@ -7,7 +7,7 @@ const Employe1 = () => {
   return (
     <main className=" w-full items-center">
       <Header />
-      <div className=" mt-16 onboarding-employe1-container w-full items-center">
+      <div className=" mt-32 onboarding-employe1-container w-full items-center">
         <h2 className="onboarding-h2 max-md:text-[24px] md:text-[32px]">
           Employers help themselves by helping us
         </h2>

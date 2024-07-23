@@ -55,7 +55,7 @@ const AboutUs = () => {
   return (
     <main className=" items-center flex justify-center">
       <Header />
-      <div className=" px-5 pt-5 w-full ProfessionsWeHaveSupplied-container  mt-16">
+      <div className=" px-5 pt-5 w-full ProfessionsWeHaveSupplied-container  mt-32">
         <h1 className="ProfessionsWeHaveSupplied-heading">
           Professions we have supplied
         </h1>

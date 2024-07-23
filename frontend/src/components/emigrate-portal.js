@@ -13,7 +13,7 @@ const EmigratePortal = () => {
   };
 
   return (
-    <div className="emigrate-portal-support2-container w-full mt-16">
+    <div className="emigrate-portal-support2-container w-full mt-32">
       <h1>Registration on emigrate portal</h1>
       <div className="emigrate-portal-accordion-section">
         <div

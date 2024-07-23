@@ -384,8 +384,8 @@ body {
 
   .ProfessionsWeHaveSupplied-table th,
   .ProfessionsWeHaveSupplied-table td {
-    font-size: 14px;
-    padding: 8px;
+    font-size: 10px;
+    padding: 4px;
   }
 }
 .art-science-about-us3-container {
@@ -395,7 +395,7 @@ body {
   color: #333;
   max-width: 1440px;
   /* margin: 0 auto; */
-  margin-top: 64px;
+  /* margin-top: 64px; */
 }
 
 .art-science-heading {

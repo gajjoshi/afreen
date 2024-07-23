@@ -7,7 +7,7 @@ const Support1 = () => {
   return (
     <main className=" felx justify-center">
       <Header />
-      <div className="support1-container mt-16">
+      <div className="support1-container mt-32">
         <h1 className="short-term-visas-heading">
           Employer sponsored short term visas
         </h1>

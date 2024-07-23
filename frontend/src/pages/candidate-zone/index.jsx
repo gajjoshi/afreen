@@ -6,7 +6,7 @@ export default function index() {
   return (
     <main>
       <Header />
-      <div className="mt-16 bg-white flex justify-center items-center">
+      <div className="mt-32 bg-white flex justify-center items-center">
         <Candidate />
       </div>
     </main>

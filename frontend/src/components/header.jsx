@@ -77,7 +77,7 @@ const Header = () => {
           <img
             width={200}
             height={10}
-            className=" max-md:max-h-[90px] max-md:max-w-[150px] max-h-[100px]"
+            className=" max-md:max-h-[100px] max-md:max-w-[150px] max-h-[100px]"
             src="/logofinal.svg"
             alt="Your Logo"
           />
@@ -236,7 +236,7 @@ const Header = () => {
             </Link>
             <div className="relative w-full">
               <span
-                className={`cursor-pointer hover:text-gray-300 text-white py-2 w-full text-center flex justify-between items-center  border-gray-700`}
+                className={`cursor-pointer hover:text-gray-300 py-2 text-white w-full text-center flex justify-between items-center  border-gray-700`}
                 onClick={() =>
                   setDropdown(dropdown === "aboutUs" ? null : "aboutUs")
                 }
@@ -295,7 +295,7 @@ const Header = () => {
             </Link>
             <div className="relative w-full">
               <span
-                className={`cursor-pointer hover:text-gray-300 text-white py-2 w-full text-center flex justify-between items-center  border-gray-700 ${
+                className={`cursor-pointer hover:text-gray-300  text-white py-2 w-full text-center flex justify-between items-center  border-gray-700 ${
                   router.pathname.startsWith("/employees") ? "underline" : ""
                 }`}
                 onClick={() =>
