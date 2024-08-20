@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { useState } from "react";
 
 const Team = () => {
@@ -47,7 +48,10 @@ const Team = () => {
   return (
     <div className="team-container mt-32 w-full">
       <div className="team-ceo-section">
-        <div className="team-ceo-photo h-fll h-[300px]">CEO's PHOTO</div>
+        <div className="team-ceo-photo h-fll h-[300px]">
+          {" "}
+          <img src="/ceo.jpeg" className=" w-full h-full" />
+        </div>
         <div className="team-ceo-message h-full">
           <h1>CEO's Message</h1>
           <h5>Welcome to Afreen International Tours & Travels</h5>
@@ -70,7 +74,7 @@ const Team = () => {
       </div> */}
       <div className="team-ceo-section">
         <div className=" md:hidden team-ceo-photo h-fll h-[300px]">
-          Co-Founder's PHOTO
+          <img src="/cof.jpeg" className=" w-full h-full" />
         </div>
         <div className="team-ceo-message h-full">
           <h1>Co-Founder's Message</h1>
@@ -88,7 +92,7 @@ const Team = () => {
           </div>
         </div>
         <div className=" max-md:hidden team-cof-photo h-fll h-[300px]">
-          Co-Founder's PHOTO
+          <img src="/cof.jpeg" className=" w-full h-full" />
         </div>
       </div>
     </div>

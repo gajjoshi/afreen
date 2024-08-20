@@ -113,34 +113,34 @@ const Header = () => {
               About Us
             </span>
             {dropdown === "aboutUs" && (
-              <div className="absolute top-full left-0 bg-white shadow-lg text-gray-700 rounded-lg">
+              <div className="absolute top-full left-0 bg-white shadow-lg text-gray-700 rounded-md p-2 grid grid-cols-2 gap-2 w-[250px] lg:w-[350px]">
                 <Link href="/about-us/vision-mission">
-                  <span className="block px-4 py-2 hover:bg-green-200">
+                  <span className="block px-2 py-1 text-sm hover:bg-green-200 rounded">
                     Vision & Mission
                   </span>
                 </Link>
                 <Link href="/about-us/strategy">
-                  <span className="block px-4 py-2 hover:bg-green-200">
+                  <span className="block px-2 py-1 text-sm hover:bg-green-200 rounded">
                     Strategy
                   </span>
                 </Link>
                 <Link href="/about-us/professions-supplied">
-                  <span className="block px-4 py-2 hover:bg-green-200">
+                  <span className="block px-2 py-1 text-sm hover:bg-green-200 rounded">
                     Professions Supplied
                   </span>
                 </Link>
                 <Link href="/about-us/art-science">
-                  <span className="block px-4 py-2 hover:bg-green-200">
+                  <span className="block px-2 py-1 text-sm hover:bg-green-200 rounded">
                     Art & Science of Recruitment
                   </span>
                 </Link>
                 <Link href="/about-us/industries-served">
-                  <span className="block px-4 py-2 hover:bg-green-200">
+                  <span className="block px-2 py-1 text-sm hover:bg-green-200 rounded">
                     Industries Served
                   </span>
                 </Link>
                 <Link href="/about-us/company-registration">
-                  <span className="block px-4 py-2 hover:bg-green-200">
+                  <span className="block px-2 py-1 text-sm hover:bg-green-200 rounded">
                     Company Registration
                   </span>
                 </Link>
