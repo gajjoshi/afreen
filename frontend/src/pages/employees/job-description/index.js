@@ -89,7 +89,7 @@ const Employe2 = () => {
         </main>
         <footer className="job-description-employe2-footer">
           <p>
-            Let us discuss your needs – just reach us on admin@afreenintl.com
+            Let us discuss your needs – just reach us on admin@afreenintl.in
           </p>
         </footer>
       </div>

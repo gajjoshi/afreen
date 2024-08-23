@@ -63,8 +63,8 @@ export function FirstSection() {
           </div>
         </div>
       </div>
-      <div className=" text-6xl max-md:text-2xl max-md:h-[100px] w-full h-[199px] items-center flex justify-center bg-[#264653]  ">
-        “BRAND TAG LINE”
+      <div className=" text-6xl max-md:text-xl max-md:h-[100px] w-full h-[199px] items-center flex justify-center bg-[#264653]  ">
+        Bridging Talent with Opportunity
       </div>
     </section>
   );

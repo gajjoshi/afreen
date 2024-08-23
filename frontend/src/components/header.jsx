@@ -159,14 +159,14 @@ const Header = () => {
               Employees
             </span>
             {dropdown === "employees" && (
-              <div className="absolute top-full left-0 bg-white shadow-lg text-gray-700 rounded-lg">
+              <div className="absolute top-full left-0 bg-white shadow-lg text-gray-700 rounded-md p-2 grid grid-cols-2 gap-2 w-[250px] lg:w-[350px]">
                 <Link href="/employees/onboarding">
-                  <span className="block px-4 py-2 hover:bg-green-200">
+                  <span className="block px-2 py-1 text-sm hover:bg-green-200 rounded whitespace-normal">
                     Onboarding Fresh Graduates
                   </span>
                 </Link>
                 <Link href="/employees/job-description">
-                  <span className="block px-4 py-2 hover:bg-green-200">
+                  <span className="block px-2 py-1 text-sm hover:bg-green-200 rounded whitespace-normal">
                     Importance of Job Description
                   </span>
                 </Link>
@@ -185,19 +185,19 @@ const Header = () => {
               Support
             </span>
             {dropdown === "support" && (
-              <div className="absolute top-full left-0 bg-white shadow-lg text-gray-700 rounded-lg">
+              <div className="absolute top-full left-[-100px] bg-white shadow-lg text-gray-700 rounded-md p-2 grid grid-cols-2 gap-2 w-[250px] lg:w-[350px]">
                 <Link href="/support/short-term-visas">
-                  <span className="block px-4 py-2 hover:bg-green-200">
+                  <span className="block px-2 py-1 text-sm hover:bg-green-200 rounded whitespace-normal">
                     Employer Sponsored Short Term Visas
                   </span>
                 </Link>
                 <Link href="/support/work-from-home">
-                  <span className="block px-4 py-2 hover:bg-green-200">
+                  <span className="block px-2 py-1 text-sm hover:bg-green-200 rounded whitespace-normal">
                     Work From Home Model
                   </span>
                 </Link>
                 <Link href="/support/emigrate-portal">
-                  <span className="block px-4 py-2 hover:bg-green-200">
+                  <span className="block px-2 py-1 text-sm hover:bg-green-200 rounded whitespace-normal">
                     eMigrate Portal
                   </span>
                 </Link>
