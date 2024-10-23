@@ -1,5 +1,4 @@
 import Header from "@/components/header";
-import Image from "next/image";
 import React from "react";
 
 const Employe2 = () => {
@@ -12,7 +11,7 @@ const Employe2 = () => {
         </div>
         <main className=" w-full job-description-employe2-content">
           <div className="job-description-images1 md:hidden  ">
-            <Image
+            <img
               width={420}
               height={400}
               src="/graduation.svg"
@@ -64,7 +63,7 @@ const Employe2 = () => {
           </div>
           <div className="job-description-images max-md:hidden w-2/6">
             <div className="job-description-images1  ">
-              <Image
+              <img
                 width={420}
                 height={400}
                 src="/graduation.svg"

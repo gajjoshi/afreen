@@ -13,7 +13,7 @@ const AboutUs4 = () => {
               <td className="company-registration-label">
                 Name of Recruiting Agency
               </td>
-              <td>Afreen International Tour & Travels</td>
+              <td>Afreen International Manpower Services</td>
             </tr>
             <tr>
               <td className="company-registration-label">Name of RC Holder</td>

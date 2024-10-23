@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import { FaCheckCircle } from "react-icons/fa";
 import Header from "@/components/header";
 
@@ -9,7 +8,7 @@ const Support3 = () => {
       <Header />
       <div className="work-from-home-container mt-32">
         <div className="work-from-home-image-content md:hidden">
-          <Image
+          <img
             src="/image22.svg"
             alt="Work from home"
             height={33}
@@ -77,7 +76,7 @@ const Support3 = () => {
             </ul>
           </div>
           <div className="work-from-home-image-content max-md:hidden">
-            <Image
+            <img
               src="/image22.svg"
               alt="Work from home"
               height={33}

@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 export function SecondSection() {
   return (
@@ -7,14 +6,14 @@ export function SecondSection() {
       <div className="flex max-md:flex-col items-center relative max-md:gap-[20px] md:gap-[100px]">
         <div className=" z-10 relative gap-[20px] md:pt-32 flex flex-col">
           <div className="items-end max-md:hidden  gap-[20px] flex">
-            <Image
+            <img
               alt="image1"
               width={246}
               height={305}
               src="/homepage/secondSection/image1.svg"
               className=""
             />
-            <Image
+            <img
               alt="image2"
               width={375}
               height={310}
@@ -22,7 +21,7 @@ export function SecondSection() {
             />
           </div>
           <div className="md:w-[642px]">
-            <Image
+            <img
               alt="image3"
               width={642}
               height={253}
@@ -40,7 +39,7 @@ export function SecondSection() {
               About Us
             </h2>
             <p className="text-2xl   max-md:text-base max-md:mb-5 md:mb-12">
-              Welcome to Afreen International Tours & Travels. Your trusted
+              Welcome to Afreen International Manpower Services. Your trusted
               partner in connecting skilled manpower from South Asia to esteemed
               companies across the Middle East. With a rich legacy of 38 years
               in the industry, we stand as a beacon of reliability and

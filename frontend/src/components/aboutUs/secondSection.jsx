@@ -54,7 +54,7 @@ export default function SecondSection() {
         smooth communication and resolution of any issues that may arise.
       </p>
       <p className="my-2">
-        At Afreen International Tours & Travels, we believe in the power of
+        At Afreen International Manpower Services, we believe in the power of
         partnership. We work closely with our clients to understand their unique
         needs and objectives, offering tailored solutions that drive success and
         growth. Whether you're seeking skilled professionals for construction
@@ -69,7 +69,7 @@ export default function SecondSection() {
         beneficial relationship for all stakeholders involved.
       </p>
       <p className="my-2">
-        Join hands with Afreen International Tours & Travels and experience the
+        Join hands with Afreen International Manpower Services and experience the
         difference that our unparalleled service and expertise can make to your
         business. Together, let's build a brighter future, one partnership at a
         time.

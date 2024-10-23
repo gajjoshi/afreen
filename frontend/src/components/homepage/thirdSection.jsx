@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 
 export function ThirdSection() {
@@ -10,7 +9,7 @@ export function ThirdSection() {
       md:w-[80%] max-w-[1170px] flex flex-col md:flex-row items-center"
       >
         <div className="md:w-[50%] md:hidden">
-          <Image
+          <img
             src="/homepage/thirdSection/image1.svg"
             width={726}
             height={493}
@@ -45,7 +44,7 @@ export function ThirdSection() {
           </div>
         </div>
         <div className="md:w-[70%] max-md:hidden">
-          <Image
+          <img
             src="/homepage/thirdSection/image1.svg"
             width={726}
             height={493}
@@ -89,7 +88,7 @@ export function ThirdSection() {
 const ServiceItem = ({ text }) => (
   <div className="flex  items-center gap-3 w-full">
     <div className="bg-[#21A08B] rounded-full p-2 flex-shrink-0">
-      <Image
+      <img
         src="/homepage/thirdSection/rightTick.svg"
         width={24}
         height={24}

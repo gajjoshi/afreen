@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
 import Header from "@/components/header";
 
@@ -23,7 +22,7 @@ const Strategy = () => {
         <ul className="strategy-ul">
           <li className="strategy-li flex gap-2">
             <div className="bg-[#21A08B] rounded-full  p-[2px] flex-shrink-0">
-              <Image
+              <img
                 src="/homepage/thirdSection/rightTick.svg"
                 width={10}
                 height={10}
@@ -36,7 +35,7 @@ const Strategy = () => {
           <li className="strategy-li flex gap-2">
             <div className=" flex items-center justify-start gap-2">
               <div className="bg-[#21A08B] rounded-full  p-[2px] flex-shrink-0">
-                <Image
+                <img
                   src="/homepage/thirdSection/rightTick.svg"
                   width={10}
                   height={10}
@@ -52,7 +51,7 @@ const Strategy = () => {
           </li>
           <li className="strategy-li flex gap-2">
             <div className="bg-[#21A08B] rounded-full  p-[2px] flex-shrink-0">
-              <Image
+              <img
                 src="/homepage/thirdSection/rightTick.svg"
                 width={10}
                 height={10}
@@ -65,7 +64,7 @@ const Strategy = () => {
           <li className="strategy-li-s gap-4 flex flex-col items-start  ">
             <div className=" flex items-center gap-2">
               <div className="bg-[#21A08B] rounded-full  p-[2px] flex-shrink-0">
-                <Image
+                <img
                   src="/homepage/thirdSection/rightTick.svg"
                   width={10}
                   height={10}
@@ -97,7 +96,7 @@ const Strategy = () => {
           </li>
           <li className="strategy-li flex gap-2">
             <div className="bg-[#21A08B] rounded-full  p-[2px] flex-shrink-0">
-              <Image
+              <img
                 src="/homepage/thirdSection/rightTick.svg"
                 width={10}
                 height={10}

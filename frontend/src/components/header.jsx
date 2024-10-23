@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { IoMenu, IoClose } from "react-icons/io5";
 import { useRouter } from "next/router";
 import Link from "next/link";
-import Image from "next/image";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React, { useState } from "react";
 
 const Team = () => {
@@ -54,11 +53,10 @@ const Team = () => {
         </div>
         <div className="team-ceo-message h-full">
           <h1>CEO's Message</h1>
-          <h5>Welcome to Afreen International Tours & Travels</h5>
+          <h5>Welcome to Afreen International Manpower Services</h5>
           <h5>Dear Friends and Partners,</h5>
           <h5>
-            I am Mr. Sagir Hasan Khan, the CEO of Afreen International Tours &
-            Travels. It is with immense pride and a profound sense of
+            I am Mr. Sagir Hasan Khan, the CEO of Afreen International Manpower Services. It is with immense pride and a profound sense of
             responsibility that I welcome you to our organization—a pioneering
             manpower consultancy recognized for its commitment to excellence and
             its significant role in empowering the workforce of the Middle East.
@@ -78,11 +76,10 @@ const Team = () => {
         </div>
         <div className="team-ceo-message h-full">
           <h1>Co-Founder's Message</h1>
-          <h5>Welcome to Afreen International Tours & Travels</h5>
+          <h5>Welcome to Afreen International Manpower Services</h5>
           <h5>Dear Friends and Partners,</h5>
           <h5>
-            I am Mr. Sagir Hasan Khan, the CEO of Afreen International Tours &
-            Travels. It is with immense pride and a profound sense of
+            I am Mr. Sagir Hasan Khan, the CEO of Afreen International Manpower Sevices. It is with immense pride and a profound sense of
             responsibility that I welcome you to our organization—a pioneering
             manpower consultancy recognized for its commitment to excellence and
             its significant role in empowering the workforce of the Middle East.

@@ -1,6 +1,5 @@
 import React from "react";
 import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
-import Image from "next/image";
 import Header from "@/components/header";
 // import "./AboutUs3.css";
 
@@ -29,7 +28,7 @@ const AboutUs3 = () => {
               className="art-science-point-item flex md:gap-10 max-md:gap-4  items-start"
             >
               <div className="bg-[#21A08B] rounded-full   p-[2px] flex-shrink-0">
-                <Image
+                <img
                   src="/homepage/thirdSection/rightTick.svg"
                   width={32}
                   height={32}

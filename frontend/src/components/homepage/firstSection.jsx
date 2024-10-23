@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 export function FirstSection() {
   // Capitalized for consistency
 
@@ -7,7 +6,7 @@ export function FirstSection() {
     <section className=" max-md:mt-[115px]  w-full relaive bg-cover bg-[#264653] bg-no-repeat">
       <div>
         <div className=" max-md:h-screen opacity-30 bg-[#264653] ">
-          <Image
+          <img
             src="/homepage/landing.svg"
             alt="Homepage background"
             width={300}
@@ -29,7 +28,7 @@ export function FirstSection() {
         </div>
         <div className=" md:justify-evenly max-md:pl-5 items-center   mx-auto scrollbar-hidden w-full flex    max-md:overflow-y-scroll  ">
           <section className="flex-shrink-0">
-            <Image
+            <img
               alt="Image"
               src="/homepage/firstSection/image1.svg"
               height={75}
@@ -38,7 +37,7 @@ export function FirstSection() {
           </section>
 
           <section className="flex-shrink-0">
-            <Image
+            <img
               alt="Image"
               src="/homepage/firstSection/image2.svg"
               height={75}
@@ -46,7 +45,7 @@ export function FirstSection() {
             />
           </section>
           <section className="flex-shrink-0">
-            <Image
+            <img
               alt="Image"
               src="/homepage/firstSection/image3.svg"
               height={75}
@@ -54,7 +53,7 @@ export function FirstSection() {
             />
           </section>
           <div className="flex-shrink-0">
-            <Image
+            <img
               alt="Image"
               src="/homepage/firstSection/image4.svg"
               height={75}

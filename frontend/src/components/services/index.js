@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 
 const OurServices = () => {
@@ -8,7 +7,7 @@ const OurServices = () => {
         Our Services
       </h2>
       <p className="my-4 text-xl max-md:px-5 max-md:text-base font-light tracking-widest bg-[#264653] px-16 py-5 rounded-[20px]">
-        At Afreen International Tours & Travels, we take pride in offering
+        At Afreen International Manpower Services, we take pride in offering
         comprehensive manpower solutions tailored to the diverse needs of our
         clients across the Middle East. Under the visionary leadership of our
         CEO, Mr. Sagir Hasan Khan, we have cultivated a reputation for
@@ -22,7 +21,7 @@ const OurServices = () => {
         One Platform for all your Manpower Solutions
       </h2>
       <p className="my-4 text-xl max-md:text-base text-center text-black">
-        At Afreen International Tours & Travels, we are dedicated to fostering
+        At Afreen International Manpower Services, we are dedicated to fostering
         long-term relationships with our clients by providing reliable,
         efficient, and ethical manpower solutions. Trust us to help you achieve
         your project goals with a skilled and well-prepared workforce that
@@ -85,7 +84,7 @@ const OurServices = () => {
             className={`${service.bgColor} rounded-3xl max-md:px-5 px-16 py-5 flex flex-col gap-5 p-4 h-full`}
           >
             <div className="w-full flex justify-center items-center">
-              <Image
+              <img
                 src={service.imageSrc}
                 width={100}
                 height={100}

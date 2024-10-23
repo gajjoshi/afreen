@@ -1,17 +1,16 @@
 import React from "react";
-import Image from "next/image";
 export function FourthSection() {
   return (
     <div className="  h-full  relative bg-covr bg-no-repeat">
       <div className="h-full w-auto opacity-35 bg-[#264653] ">
-        <Image
+        <img
           src="/homepage/sixthsection/image1.svg"
           alt="Homepage background"
           width={100}
           height={100}
           className="w-full h-full max-md:hidden    z-0"
         />
-        <Image
+        <img
           src="/homepage/sixthsection/image2.jpg"
           alt="Homepage background"
           width={300}
