@@ -3,29 +3,24 @@ import React from "react";
 const OurServices = () => {
   return (
     <div className="m-6 max-w-[1176px] font-sans">
-      <h2 className="text-5xl max-md:text-3xl text-[#264653] my-4">
-        Our Services
-      </h2>
-      <p className="my-4 text-xl max-md:px-5 max-md:text-base font-light tracking-widest bg-[#264653] px-16 py-5 rounded-[20px]">
-        At Afreen International Manpower Services, we take pride in offering
-        comprehensive manpower solutions tailored to the diverse needs of our
-        clients across the Middle East. Under the visionary leadership of our
-        CEO, Mr. Sagir Hasan Khan, we have cultivated a reputation for
-        excellence in the recruitment and placement of both blue and
-        white-collar professionals. Our services are designed to meet the
-        dynamic demands of various industries, ensuring that each candidate not
-        only meets the qualifications required but also integrates seamlessly
-        into their new roles and cultural settings.
+      <h2 className="text-5xl max-md:text-3xl  text-[#264653] my-4">Our Services</h2>
+      <p className="my-4 text-xl max-md:px-5 text-white max-md:text-base font-light tracking-widest bg-[#264653] px-16 py-5 rounded-[20px]">
+        At Afreen International Manpower Services, we take pride in offering comprehensive manpower
+        solutions tailored to the diverse needs of our clients across the Middle East. Under the
+        visionary leadership of our CEO, Mr. Sagir Hasan Khan, we have cultivated a reputation for
+        excellence in the recruitment and placement of both blue and white-collar professionals. Our
+        services are designed to meet the dynamic demands of various industries, ensuring that each
+        candidate not only meets the qualifications required but also integrates seamlessly into
+        their new roles and cultural settings.
       </p>
       <h2 className="text-4xl max-md:text-2xl w-full text-center text-blue-800 my-4">
         One Platform for all your Manpower Solutions
       </h2>
       <p className="my-4 text-xl max-md:text-base text-center text-black">
-        At Afreen International Manpower Services, we are dedicated to fostering
-        long-term relationships with our clients by providing reliable,
-        efficient, and ethical manpower solutions. Trust us to help you achieve
-        your project goals with a skilled and well-prepared workforce that
-        drives success.
+        At Afreen International Manpower Services, we are dedicated to fostering long-term
+        relationships with our clients by providing reliable, efficient, and ethical manpower
+        solutions. Trust us to help you achieve your project goals with a skilled and well-prepared
+        workforce that drives success.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-20 my-6">
@@ -84,20 +79,13 @@ const OurServices = () => {
             className={`${service.bgColor} rounded-3xl max-md:px-5 px-16 py-5 flex flex-col gap-5 p-4 h-full`}
           >
             <div className="w-full flex justify-center items-center">
-              <img
-                src={service.imageSrc}
-                width={100}
-                height={100}
-                alt="Service Image"
-              />
+              <img src={service.imageSrc} width={100} height={100} alt="Service Image" />
             </div>
-            <h3
-              className={`text-2xl ${service.textColor} text-center font-bold`}
-            >
+            <h3 className={`text-2xl ${service.textColor} text-center font-bold`}>
               {service.title}
             </h3>
             <p
-              className={`text-lg max-md:text-base tracking-widest ${
+              className={`text-lg max-md:text-base  ${
                 service.textColor === "text-[#264653]" ? "text-black" : ""
               }`}
             >

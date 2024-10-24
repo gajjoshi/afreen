@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 export function ThirdSection() {
   return (
     <div className="bg-white flex flex-col items-center">
@@ -33,15 +33,14 @@ export function ThirdSection() {
             className="text-2xl max-md:text-base md:text-xl max-md:text-start
            text-gray-800 text-center md:text-left"
           >
-            To be the first choice of industries for their recruitment needs,
-            and for candidates for their employment needs, by being transparent
-            and following ethical business practices.
+            To be the first choice of industries for their recruitment needs, and for candidates for
+            their employment needs, by being transparent and following ethical business practices.
           </div>
-          <div className="mt-8 flex w-full justify-start">
+          <Link className="mt-8 flex w-full justify-start" href="/about-us/vision-mission">
             <button className="bg-[#21A08B] text-[16px] text-white py-2 px-4 rounded-full hover:bg-green-600 transition-colors duration-300">
               Read More
             </button>
-          </div>
+          </Link>
         </div>
         <div className="md:w-[70%] max-md:hidden">
           <img
@@ -74,10 +73,9 @@ export function ThirdSection() {
         rounded-[30px] bg-[#264653] font-semibold  md:min-h-[200px]
          text-center max-w-[1170px] mx-auto px-6 md:p-10"
         >
-          Our commitment to quality and compliance sets us apart. We
-          meticulously screen candidates to match their skills with our clients'
-          needs, ensuring that only the most qualified individuals join our
-          talent pool.
+          Our commitment to quality and compliance sets us apart. We meticulously screen candidates
+          to match their skills with our clients' needs, ensuring that only the most qualified
+          individuals join our talent pool.
         </div>
       </div>
     </div>

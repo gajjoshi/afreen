@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export function SecondSection() {
@@ -13,20 +14,10 @@ export function SecondSection() {
               src="/homepage/secondSection/image1.svg"
               className=""
             />
-            <img
-              alt="image2"
-              width={375}
-              height={310}
-              src="/homepage/secondSection/image2.svg"
-            />
+            <img alt="image2" width={375} height={310} src="/homepage/secondSection/image2.svg" />
           </div>
           <div className="md:w-[642px]">
-            <img
-              alt="image3"
-              width={642}
-              height={253}
-              src="/homepage/secondSection/image3.svg"
-            />
+            <img alt="image3" width={642} height={253} src="/homepage/secondSection/image3.svg" />
           </div>
         </div>
         <div
@@ -35,21 +26,20 @@ export function SecondSection() {
         flex flex-col text-black bg-gray-100 p-8 md:-ml-56 drop-shadow-lg"
         >
           <div className="w-full">
-            <h2 className="text-3xl max-md:text-2xl uppercase font-bold mb-4">
-              About Us
-            </h2>
+            <h2 className="text-3xl max-md:text-2xl uppercase font-bold mb-4">About Us</h2>
             <p className="text-2xl   max-md:text-base max-md:mb-5 md:mb-12">
-              Welcome to Afreen International Manpower Services. Your trusted
-              partner in connecting skilled manpower from South Asia to esteemed
-              companies across the Middle East. With a rich legacy of 38 years
-              in the industry, we stand as a beacon of reliability and
+              Welcome to Afreen International Manpower Services. Your trusted partner in connecting
+              skilled manpower from South Asia to esteemed companies across the Middle East. With a
+              rich legacy of 38 years in the industry, we stand as a beacon of reliability and
               excellence in the realm of overseas manpower solutions.
             </p>
-            <div className="flex justify-start">
-              <button className="bg-[#21A08B] text-[16px] text-white py-2 px-4 rounded-full">
-                Read More
-              </button>
-            </div>
+            <Link className="flex justify-start" href="/services">
+              <div>
+                <button className="bg-[#21A08B] text-[16px] hover:bg-green-600 text-white py-2 px-4 rounded-full">
+                  Read More
+                </button>
+              </div>
+            </Link>
           </div>
         </div>
       </div>

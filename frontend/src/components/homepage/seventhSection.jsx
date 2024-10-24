@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { IoCallOutline } from "react-icons/io5";
 import { FaRegClock } from "react-icons/fa";
-
+import Link from "next/link";
 export function SeventhSection() {
   const [formData, setFormData] = useState({
     name: "",
@@ -35,8 +35,7 @@ export function SeventhSection() {
       <div className="flex gap-5 flex-col h-full justify-evenly w-full lg:w-1/4 items-start">
         <div className="text-lg lg:text-xl font-bold text-white">ADDRESS</div>
         <div className="text-sm it lg:text-base text-white">
-          Office No. 624, 625, 6th Floor, Mega Mall, Mall Road, Kanpur-208001,
-          Uttar Pradesh, India
+          Office No. 624, 625, 6th Floor, Mega Mall, Mall Road, Kanpur-208001, Uttar Pradesh, India
         </div>
         <div className="gap-3 items-center flex text-white">
           <IoCallOutline size={32} />
@@ -58,45 +57,49 @@ export function SeventhSection() {
       </div>
       <div className="flex flex-col lg:flex-row w-full lg:w-4/6 gap-8 mt-10 lg:mt-0">
         <div className="gap-8 w-full lg:w-1/2 pt-5 flex flex-col">
-          <div className="text-lg lg:text-xl font-bold text-white">
-            QUICK LINKS
-          </div>
+          <div className="text-lg lg:text-xl font-bold text-white">QUICK LINKS</div>
           <div className="flex  flex-col lg:flex-row gap-5">
             <div className="flex flex-col gap-5">
-              <div className="flex items-center gap-4 text-white">
+              <Link href="/about-us/vision-mission" className="flex items-center gap-4 text-white">
                 <div className="bg-[#CBBF8B] h-2 w-2 rounded-full"></div>
                 <div className="text-base">About Us</div>
-              </div>
-              <div className="flex items-center gap-4 text-white">
+              </Link>
+              <Link href="/services" className="flex items-center gap-4 text-white">
                 <div className="bg-[#CBBF8B] h-2 w-2 rounded-full"></div>
                 <div className="text-base">Services</div>
-              </div>
-              <div className="flex items-center gap-4 text-white">
+              </Link>
+              <Link href="/team" className="flex items-center gap-4 text-white">
                 <div className="bg-[#CBBF8B] h-2 w-2 rounded-full"></div>
                 <div className="text-base">Teams</div>
-              </div>
-              <div className="flex items-center gap-4 text-white">
+              </Link>
+              <Link href="/employees/onboarding" className="flex items-center gap-4 text-white">
                 <div className="bg-[#CBBF8B] h-2 w-2 rounded-full"></div>
                 <div className="text-base">Employers</div>
-              </div>
+              </Link>
             </div>
             <div className="flex flex-col gap-5">
-              <div className="flex items-center gap-4 text-white">
+              <Link href="/candidate-zone" className="flex items-center gap-4 text-white">
                 <div className="bg-[#CBBF8B] h-2 w-2 rounded-full"></div>
                 <div className="text-base">Candidate</div>
-              </div>
-              <div className="flex items-center gap-4 text-white">
+              </Link>
+              <Link
+                href="/support/short-term-visas"
+                className="flex items-center gap-4 text-white"
+              >
                 <div className="bg-[#CBBF8B] h-2 w-2 rounded-full"></div>
                 <div className="text-base">Support</div>
-              </div>
-              <div className="flex items-center gap-4 text-white">
+              </Link>
+              <Link href="/contact-us" className="flex items-center gap-4 text-white">
                 <div className="bg-[#CBBF8B] h-2 w-2 rounded-full"></div>
                 <div className="text-base">Contact Us</div>
-              </div>
-              <div className="flex items-center gap-4 text-white">
+              </Link>
+              <Link
+                href="/about-us/company-registration"
+                className="flex items-center gap-4 text-white"
+              >
                 <div className="bg-[#CBBF8B] h-2 w-2 rounded-full"></div>
                 <div className="text-base">Company Registration</div>
-              </div>
+              </Link>
             </div>
           </div>
         </div>

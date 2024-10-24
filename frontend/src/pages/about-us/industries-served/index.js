@@ -55,7 +55,7 @@ const AboutUs5 = () => {
   return (
     <main className=" flex items-center">
       <Header />
-      <div className="industries-served-container pt-5 px-5 mt-32w-full">
+      <div className="industries-served-container pt-5 px-5 mt-32 w-full">
         <h2 className="industries-served-heading">Industries we have served</h2>
         <div className="industries-served-content-box">
           <div className="industries-served-table">

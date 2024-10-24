@@ -72,7 +72,7 @@ const Header = () => {
     >
       <div className="flex items-center justify-between">
         <div className="flex items-center">
-          {/* <Link href="/"> */}
+          <Link href="/">
           <img
             width={200}
             height={10}
@@ -80,7 +80,7 @@ const Header = () => {
             src="/logofinal.svg"
             alt="Your Logo"
           />
-          {/* </Link> */}
+          </Link>
         </div>
 
         <div className="lg:hidden">

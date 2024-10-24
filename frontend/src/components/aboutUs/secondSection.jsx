@@ -35,7 +35,7 @@ export default function SecondSection() {
         <div className="bg-[#264653] text-white p-4 rounded text-center w-full sm:w-1/3">
           Integrity
         </div>
-        <div className="bg-[#21A08B] bg-opacity-[30%] tracking-wide font-light text-black p-4 rounded text-center w-full sm:w-1/3">
+        <div className="bg-[#21A08B] bg-opacity-[30%]  text-black p-4 rounded text-center w-full sm:w-1/3">
           Passion for recruitment
         </div>
       </div>

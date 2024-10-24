@@ -11,7 +11,7 @@ export function FirstSection() {
         className=" md:hidden h-fit"
       />
       <div className="   md:w-1/3 max-md:w-[100%] max-md:gap-5 gap-10 pb-20 justify-center flex flex-col">
-        <div className=" text-4xl max-md:text-2xl">
+        <div className=" text-white text-4xl max-md:text-2xl">
           About Afreen International
         </div>
         <div className="">
